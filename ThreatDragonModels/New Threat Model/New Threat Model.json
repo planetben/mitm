@@ -395,7 +395,7 @@
           },
           {
             "position": {
-              "x": 476,
+              "x": 416,
               "y": 100
             },
             "size": {
@@ -555,95 +555,6 @@
             "vertices": []
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Datei-Upload",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Datei-Upload"
-            ],
-            "id": "cbe896bc-fa78-4bcf-8651-aa5444714568",
-            "source": {
-              "x": 589,
-              "y": 130
-            },
-            "target": {
-              "cell": "df8f06f9-b0f9-40eb-a8d5-d8e5da525c3f",
-              "port": "29309188-39eb-460a-b97c-6dc4882f6be3"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Datei-Upload",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Datei-Upload"
-            ],
-            "id": "4602550d-dd58-41b9-8831-5616e843a8d8",
-            "source": {
-              "x": 940,
-              "y": 170
-            },
-            "target": {
-              "cell": "9070f015-708e-4580-8406-269c51be4ef4",
-              "port": "cf779eb5-cfa4-40ed-b688-9c80875f4937"
-            }
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -691,14 +602,191 @@
             "labels": [
               "Vertrauensgrenze"
             ],
-            "id": "117dac00-59a4-402a-baa7-8798f3446542",
+            "id": "fdd0ccc3-4dc6-4bf8-862e-1a4d5a83a442",
             "source": {
-              "x": 660,
-              "y": 10
+              "x": 800,
+              "y": 340
             },
             "target": {
-              "x": 660,
+              "x": 1070,
               "y": 340
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Presigned URL",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Presigned URL"
+            ],
+            "id": "36eab998-a628-4128-afd0-301562560b86",
+            "source": {
+              "x": 886,
+              "y": 141
+            },
+            "target": {
+              "cell": "ac581e88-64ed-455e-8bbe-ca6ced512bee",
+              "port": "340fd7f3-5e6d-468d-b804-6d1b44ed79c0"
+            },
+            "vertices": [
+              {
+                "x": 650,
+                "y": 141
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Datei-Upload",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Datei-Upload"
+            ],
+            "id": "cb49a705-62c7-48d1-b1ba-279d712bbe04",
+            "source": {
+              "cell": "ac581e88-64ed-455e-8bbe-ca6ced512bee",
+              "port": "3e327131-3f51-4803-8a19-cceac56862ca"
+            },
+            "target": {
+              "cell": "9070f015-708e-4580-8406-269c51be4ef4",
+              "port": "8482f1b5-d7f1-4e5d-aea9-88c69e29a898"
+            },
+            "vertices": [
+              {
+                "x": 670,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Presigned URL anfordern",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Presigned URL anfordern"
+            ],
+            "id": "cbe896bc-fa78-4bcf-8651-aa5444714568",
+            "source": {
+              "cell": "ac581e88-64ed-455e-8bbe-ca6ced512bee",
+              "port": "340fd7f3-5e6d-468d-b804-6d1b44ed79c0"
+            },
+            "target": {
+              "cell": "df8f06f9-b0f9-40eb-a8d5-d8e5da525c3f",
+              "port": "29309188-39eb-460a-b97c-6dc4882f6be3"
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 110
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Vertrauensgrenze",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Vertrauensgrenze"
+            ],
+            "id": "117dac00-59a4-402a-baa7-8798f3446542",
+            "source": {
+              "x": 620,
+              "y": 20
+            },
+            "target": {
+              "x": 620,
+              "y": 230
             },
             "vertices": []
           },
@@ -718,14 +806,14 @@
             "labels": [
               "Vertrauensgrenze"
             ],
-            "id": "fdd0ccc3-4dc6-4bf8-862e-1a4d5a83a442",
+            "id": "3a1ab702-652e-4be8-a571-63ad27215a11",
             "source": {
-              "x": 800,
-              "y": 340
+              "x": 490,
+              "y": 310
             },
             "target": {
-              "x": 1070,
-              "y": 340
+              "x": 730,
+              "y": 240
             },
             "vertices": []
           }

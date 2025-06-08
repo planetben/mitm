@@ -701,6 +701,33 @@
               "y": 340
             },
             "vertices": []
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Vertrauensgrenze",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Vertrauensgrenze"
+            ],
+            "id": "fdd0ccc3-4dc6-4bf8-862e-1a4d5a83a442",
+            "source": {
+              "x": 800,
+              "y": 340
+            },
+            "target": {
+              "x": 1070,
+              "y": 340
+            },
+            "vertices": []
           }
         ],
         "description": "d"
